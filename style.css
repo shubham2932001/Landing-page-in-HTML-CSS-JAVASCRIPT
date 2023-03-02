@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+
+
+
+
+*{
+               margin: 0px;
+               padding: 0px;
+
+}
+
+
+
+.container{
+        /*      max-width: 80vw;  */
+               font-family: 'Ubuntu', sans-serif;
+}
+
+.centre{
+    padding: 0px 22px;
+}
+
+.navbar{
+               
+               display: flex;
+               height: 67px;
+               font-family: 'Lato', sans-serif;
+}
+
+
+
+.navbar li{
+list-style: none;
+margin: 0px 12px;
+}
+
+
+*{
+               margin: 0px;
+               padding: 0px;
+}
+
+
+.rohan{
+    
+    height: 700px;
+}
+  
+
+
+
+
+
+
+
+
+.raamu{
+    background: rgb(239, 197, 197);
+    height: 700px;
+    background-image: url(shiva.png);
+    
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    color: rgb(192 218 38);
+   }
+
+
+.para-raamu{
+               color: white;
+}
+
+
+
+
+
+
+.topleft{
+               width: 50%;
+               height: 50vh; 
+}
+.topright{
+               width: 50%;
+               height: 50vh; 
+}
+.section1{
+             
+           
+}
+
+.image{
+background-image: url(gym.png);
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+
+.logo{
+               font-size: 1.3rem;
+}
+
+.section2{
+               padding: 63px 63px;
+               background: rgb(211, 223, 247);
+}
+.section2 h1{
+
+               font-size: 2rem;
+               background: rgb(253, 253, 254);
+}
+
+.section2 p{
+               padding: 0 8vw;
+               text-align: center;
+}
+.box{
+               padding: 8px 0px;
+               margin: 12px 22px;
+               min-width: 20vw;
+               border: 2px solid rgb(221 216 230);
+               text-align: center;
+               border-radius: 8px;
+               
+}
+
+.box h2{
+               font-size: 2rem;
+               padding: 15px 0;
+}
+
+.box ul{
+               list-style: none;
+}
+.box ul li{
+               margin: 12px 2px;
+}
+
+
+
+
+
+
+
+
+.plantable{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+           }
+           
+           .section3 table{
+               width: 100%;
+               margin-bottom: 140px;
+               margin-top: 20px;
+               border-collapse: collapse;
+           }
+           
+           .section3 table th{ 
+               width: 23vw; 
+               border-bottom: 2px solid black;
+               padding: 15px 0;
+           } 
+           
+           .section3 table td{   
+               border-bottom: 2px solid black; 
+           } 
+            
+           
+           .section3 h1{
+               font-size: 2.3rem;
+           }
+           
+           .section-teesra{
+            background: rgb(252, 251, 253);
+           }
+           .section3{
+               padding: 73px;
+               
+           }
+           
+           footer{
+               padding: 23px;
+               text-align: center;
+               background: #000;
+               color: white;
+           }
+           .buttons{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin: 12px;
+           }
+           
+           .deal{
+               font-size: 1.2rem;
+               font-weight: bolder;
+               margin: 12px 0;
+           }
+
+
+
+
+
+
+
+
+           .back-video{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            
+            
+            z-index: -1;
+
+}
+
+@media (min-aspect-ratio:16/9) {
+            .back-video{
+                           width: 100%;
+                           height: auto;
+            }
+            
+}
+
+@media (max-aspect-ratio:16/9) {
+            .back-video{
+                           width: auto;
+                           height: 100%;
+            }
+            
+}
+
+
